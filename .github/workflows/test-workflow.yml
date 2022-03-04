@@ -1,0 +1,12 @@
+name: Test workflow
+on:
+    pull_request
+
+jobs:
+  test-job:
+    steps:
+      - name: Run action one 
+        uses: jaristiz/test-gha/action-test-one
+      - name: Run action two
+        uses: jaristiz/test-gha/action-test-two
+    
