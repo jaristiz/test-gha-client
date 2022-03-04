@@ -6,7 +6,7 @@ jobs:
   test-job:
     steps:
       - name: Run action one 
-        uses: jaristiz/test-gha/action-test-one
+        uses: jaristiz/test-gha/action-test-one@v1
       - name: Run action two
-        uses: jaristiz/test-gha/action-test-two
+        uses: jaristiz/test-gha/action-test-two@v1
     
