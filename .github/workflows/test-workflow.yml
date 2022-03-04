@@ -4,6 +4,7 @@ on:
 
 jobs:
   test-job:
+    runs-on: Ubuntu-latest
     steps:
       - name: Run action one 
         uses: jaristiz/test-gha/action-test-one@v1
