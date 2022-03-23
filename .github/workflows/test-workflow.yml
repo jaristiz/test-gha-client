@@ -7,7 +7,7 @@ jobs:
     runs-on: Ubuntu-latest
     steps:
       - name: Run action one 
-        uses: jaristiz/test-gha/action-test-one@v1.1
+        uses: jaristiz/test-gha/action-test-one@v1.2
       - name: Run action two
         uses: jaristiz/test-gha/action-test-two@v1.1
     
