@@ -1,0 +1,13 @@
+name: Test workflow
+on:
+    pull_request
+
+jobs:
+  test-job:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: Run action one 
+        uses: jaristiz/test-gha/action-test-one@v1.3
+      - name: Run action two
+        uses: jaristiz/test-gha/action-test-two@v1.1
+    
